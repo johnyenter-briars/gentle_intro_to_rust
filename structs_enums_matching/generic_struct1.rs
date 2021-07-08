@@ -46,9 +46,10 @@ fn main() {
 	//the first call to insert ^ nails down T to be a string
 	//trying to add something that isnt of type string wont work
     root.insert("two".to_string());
-    root.insert("four".to_string());
+    root.insert("two".to_string());
 
 	// root.insert(10);//compiler error
 
     println!("root {:#?}", root);
+
 }
